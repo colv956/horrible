@@ -1,0 +1,4 @@
+helm repo add colv956 https://colv956.github.io/horrible/
+helm search repo colv956
+helm install graf colv956/grafana
+helm list
